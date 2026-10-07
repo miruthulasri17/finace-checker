@@ -1,0 +1,16 @@
+# DRISHTI — Indian Currency Vision System v5.0
+# requirements.txt
+# Install with:  pip install -r requirements.txt
+
+torch>=2.1.0
+torchvision>=0.16.0
+opencv-python>=4.8.0
+Pillow>=10.0.0
+numpy>=1.24.0
+
+# Optional but highly recommended:
+pyttsx3>=2.90          # Text-to-speech (Windows/macOS/Linux)
+sounddevice>=0.4.6     # Beep tones per denomination
+
+# For CUDA GPU support — install the right torch version for your CUDA version:
+# See: https://pytorch.org/get-started/locally/
